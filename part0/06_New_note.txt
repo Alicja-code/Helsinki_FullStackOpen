@@ -1,0 +1,7 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+Server parses the data from new note given in JSON-format.
+end note
+
+server-->browser: statuscode 201 created - new resources being created
